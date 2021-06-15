@@ -1,7 +1,5 @@
 var express = require('express');
 var cors = require('cors');
-require('dotenv').config()
-require("./models/dbConfig");
 const postsController = require("./controllers/postsController");
 
 var app = express();
